@@ -4,27 +4,33 @@ import './_header.scss';
 
 const Header = () =>
   (<header className="header">
-    <div className="container">
-      <div className="row">
-        <div className="col-12">
-          <div className="header-content">
-            <span className="header-logo">
-              Gatsby React Boilerplate
-            </span>
-            <nav className="header-nav">
-              <ul className="header-nav-list">
-                <li className="header-nav-list-item">
-                  <a href="#features">Features</a>
-                </li>
-                <li className="header-nav-list-item">
-                  <a href="#howto">How To</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <a className="navbar-brand">
+        <img src="/images/logo.svg" /> 
+        <p>FirstStep</p>
+      </a>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav ml-auto align-items-center">
+          <li className="nav-item active">
+            <a className="nav-link" href="#">About</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Invest</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">Price</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">FAQ</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link download" href="#">
+              <button type="button" className="btn btn-download">Download</button>
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
   </header>);
 
 export default Header;

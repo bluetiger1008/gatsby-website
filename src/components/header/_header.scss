@@ -1,20 +1,38 @@
 .header {
-    width: 100%;
-    &-content {
-        height: 120px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    &-nav-list {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        &-item {
-            margin-right: 10px;
+    .navbar {
+        position: absolute;
+        width: 100%;
+        border-bottom: none !important;
+        .navbar-brand {
+            color: #000;
+            font-size: 2.4rem;
+            img {
+                float: left;
+                margin-right: 1.2rem;
+            }
+        }
+        .navbar-nav {
+            .nav-item {
+                a {
+                    color: #000000;
+                    font-size: 1.4rem;
+                    padding: 0 2.3rem;
+                    &.download {
+                        padding-left: 1.6rem;
+                        padding-right: 0;
+                        button {
+                            font-size: 1.8rem;
+                            width: 146px;
+                            height: 58px;
+                            box-shadow: 0px 4px 12px 0px rgba(101, 16, 255, 0.3);
+                            border-radius: 10px;
+                            background: rgb(101,16,255);
+                            background: linear-gradient(325deg, rgba(101,16,255,1) 0%, rgba(94,55,164,1) 100%);
+                            color: white;
+                        }
+                    }
+                }
+            }
         }
     }
 }
