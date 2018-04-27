@@ -1,0 +1,94 @@
+.homepage {
+  section {
+    &.banner {
+      background: url('/images/bg-banner.png');
+      background-size: 100% 100%;
+      .banner-left {
+        margin-top: 33.2rem;
+        margin-bottom: 12.5rem;
+        h1 {
+          font-size: 5.2rem;
+          margin-bottom: 4rem;
+          line-height: 1;
+          background: linear-gradient(to left, #C841FF 0%, #792FFF 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        h3 {
+          font-size: 2.4rem;
+          color: #000;
+        }
+        .download-cta {
+          margin-top: 18rem;
+          p {
+            margin-bottom: 3.5rem;
+          }
+          form {
+            input {
+              height: 5.8rem;
+              width: 30rem;
+              border: none;
+              border-bottom: 2px solid #EBEBEB;
+              font-size: 1.8rem;
+              &:focus {
+                box-shadow: none;
+              }
+            }
+            button {
+              height: 5.8rem;
+              width: 11.6rem;
+              margin-left: 3rem;
+              border-radius: 1rem;
+              border: none;
+              background: #FF6FB6;
+              color: white;
+              background: linear-gradient(150deg, #FF6FB6 -80%, #FF2E95 50%);
+              font-size: 1.8rem;
+              box-shadow: 0px 4px 12px 0px rgba(255, 47, 149, 0.3);
+            }
+          }
+        }
+        .phone-cta {
+          margin-top: 7.35rem;
+          button.btn-phone {
+            border-radius: 4rem;
+            background-color: #fff;
+            border: none;
+            box-shadow: 5px 20px 50px 0px rgba(0, 0, 0, 0.05);
+            width: 12.7rem;
+            height: 8.4rem;
+            &.mac {
+              margin-right: 4rem;
+              img {
+                width: 3.2rem;
+              }
+            }
+            &.android {
+              img {
+                width: 3.8rem;
+              }
+            }
+          }
+        }
+      }
+      .banner-right {
+        position: relative;
+        height: 100%;
+        img {
+          &.iphone-investment {
+            position: absolute;
+            bottom: -7rem;
+            right: 39rem;
+            filter: drop-shadow(30px 50px 50px rgba(0, 0, 0, 0.1));
+          }
+          &.iphone-account {
+            position: absolute;
+            right: 0;
+            bottom: 6.3rem;
+            filter: drop-shadow(30px 50px 50px rgba(0, 0, 0, 0.1));
+          }
+        }
+      }
+    }
+  }
+}
