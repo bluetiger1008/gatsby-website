@@ -1,0 +1,273 @@
+//======================
+// Grid and Positioning
+//======================
+
+.margin-auto {
+	margin: 0 auto;
+}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.pull-left {
+	float: left !important;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+@include breakpoint(xs-down) {
+  .no-gutters-xs {
+    margin-right: 0;
+    margin-left: 0;
+
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+  .no-padding-xs {
+    padding: 0 !important;
+  }
+}
+
+.img-container {
+  position: relative;
+}
+
+
+//============
+// Typography
+//============
+
+.text-lowercase {
+	text-transform: lowercase;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.vertical-divider {
+	border-right: 1px solid #ccc;
+}
+
+.hr {
+    &-primary {
+      border-color: $color-gainsboro;
+    }
+}
+
+.hr-block {
+  max-width: 100%;
+}
+
+//========
+// Content
+//========
+
+.content-50 {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  @include breakpoint(xs-down) {
+    max-width: 100%;
+  }
+}
+
+.content-75 {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  @include breakpoint(xs-down) {
+    max-width: 100%;
+  }
+}
+
+.container--cornered {
+  padding: 3rem;
+  @include breakpoint(xs-down) {
+    padding: 1rem;
+  }
+  >div {
+    box-shadow: 0 12px 23px 0 rgba(74, 92, 105, .33);
+    padding: 2rem;
+    border-radius: 8px;
+    @include breakpoint(xs-down) {
+      padding: 1rem;
+    }
+  }
+}
+
+//========
+// Borders
+//========
+
+.border-b {
+  &-primary {
+    border-bottom: 4px solid $color-blueberry;
+  }
+  &-secondary {
+    border-bottom: 4px solid $color-berry;
+  }
+}
+
+.border-r-1 {
+  &--primary {
+    border-right: 1px solid $color-blueberry;
+  }
+  &--secondary {
+    border-right: 1px solid $color-berry;
+  }
+}
+
+//====================
+// Background Colours
+//====================
+
+.bg {
+	&-primary {
+		background: $color-arsenic !important;
+    h1, h2, h3, p {
+      color: #fff;
+    }
+	}
+	&-secondary {
+		background: $color-white-smoke;
+	}
+}
+
+
+//==========
+// Overlays
+//==========
+
+.overlay {
+  @include overlay(60);
+}
+
+.overlay-20 {
+  @include overlay(20);
+}
+
+.overlay-30 {
+  @include overlay(30);
+}
+
+.overlay-50 {
+  @include overlay(50);
+}
+
+.overlay-60 {
+  @include overlay(60);
+}
+
+.overlay-75 {
+  @include overlay(75);
+}
+
+
+
+//==================
+// Flexbox
+//===================
+
+.flex-container {
+	display: flex;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.currency:before {
+  content: '$';
+}
+
+
+//================
+// CSS Animations
+//================
+
+// @keyframes cd-pulse {
+//   0% {
+//     transform: translateY(-50%) scale(1);
+//     opacity: 1;
+//   }
+//   40% {
+//     transform: translateY(-50%) scale(0.9);
+//     opacity: 0;
+//   }
+//   100% {
+//     transform: translateY(-50%) scale(0);
+//     opacity: 0;
+//   }
+// }
+
+// @keyframes fade {
+//   0% {
+//     opacity: 1
+//   }
+//   33.333% {
+//     opacity: 0
+//   }
+//   66.666% {
+//     opacity: 0
+//   }
+//   100% {
+//     opacity: 1
+//   }
+// }
+
+// @keyframes fade2 {
+//   0% {
+//     opacity: 0
+//   }
+//   33.333% {
+//     opacity: 1
+//   }
+//   66.666% {
+//     opacity: 0
+//   }
+//   100% {
+//     opacity: 0
+//   }
+// }
+
+// @keyframes fade3 {
+//   0% {
+//     opacity: 0
+//   }
+//   33.333% {
+//     opacity: 0
+//   }
+//   66.666% {
+//     opacity: 1
+//   }
+//   100% {
+//     opacity: 0
+//   }
+// }

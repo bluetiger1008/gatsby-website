@@ -11,7 +11,7 @@ const IndexPage = props =>
       <section className="banner">
         <div className="wrapper">
           <div className="row">
-            <div className="col-6">
+            <div className="col-md-6">
               <div className="banner-left">
                 <h1>A smarter way to SAVE</h1>
                 <h3>Choose a goal and start saving in minutes</h3>
@@ -32,7 +32,7 @@ const IndexPage = props =>
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-md-6">
               <div className="banner-right">
                 <img src="images/iphone_x.png" className="iphone-investment"/>
                 <img src="images/iphone_account.png" className="iphone-account"/>
