@@ -170,7 +170,7 @@ const IndexPage = props =>
           <div className="row">
             <div className="col-8 offset-md-2">
               <div className="text-center">
-                <p>Firststep is a fully licensed managed investment scheme, regulated by the Australian investments Securities Commission. <br/>
+                <p>Firststep is a fully licensed managed investment scheme, regulated by the Australian investments Securities Commission. <br/><br/>
                 Every Furststep account is protected by bank level encryption, anti fraud protection and insurance</p>
                 <button type="button" className="btn btn-pink-gradient">Explore more</button>
               </div>
@@ -178,6 +178,9 @@ const IndexPage = props =>
           </div>
         </div>
       </section>
+      <footer>
+        
+      </footer>
       {/* <Features data={props.data.allDataJson.edges[0].node.features} />
       <HowTo data={props.data.allDataJson.edges[0].node.howTo} /> */}
     </div>

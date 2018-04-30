@@ -1,8 +1,5 @@
 .homepage {
   section {
-    .inner-wrapper {
-      padding: 0 90px;
-    }
     &.banner {
       background: url('/images/bg-banner.png');
       background-size: 100% 100%;
@@ -138,10 +135,21 @@
       }
     }
     &.safe-secure {
+      margin: 15rem 0;
       .btn-explore {
         width: 21.7rem;
         height: 6.5rem;
         color: #fff;
+      }
+      h2 {
+        margin-bottom: 7.8rem;
+      }
+      button {
+        width: 21.7rem;
+        height: 6.5rem;
+        border-radius: 1rem;
+        font-size: 2rem;
+        margin-top: 6rem;
       }
     }
   }
