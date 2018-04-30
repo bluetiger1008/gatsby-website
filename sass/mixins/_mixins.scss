@@ -57,3 +57,9 @@ $mq-extend-flag: true !global;
     }
     $mq-extend-flag: true !global;
 }
+
+@mixin pinkGradient() {
+    background: #FF6FB6;
+    color: white;
+    background: linear-gradient(150deg, #FF6FB6 -80%, #FF2E95 50%);
+}

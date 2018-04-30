@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="53px" height="51px" viewBox="0 0 53 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 18</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="45.2273101%" y1="67.2842492%" x2="22.2546348%" y2="-104.086162%" id="linearGradient-1">
+            <stop stop-color="#6510FF" offset="0%"></stop>
+            <stop stop-color="#7E72F7" offset="100%"></stop>
+        </linearGradient>
+        <path d="M8.45833333,11.3142206 C10.3597791,8.13031624 11.3105019,6.19771 11.3105019,5.51640186 C11.3105019,4.83509372 11.3105019,3.5617049 11.3105019,1.69623539 C11.7439771,0.419982121 12.5681241,-0.136078177 13.782943,0.0280544958 C15.6051714,0.274253505 16.5328101,2.55191659 16.8653077,5.51640186 C17.0869728,7.49272537 17.0869728,8.88799631 16.8653077,9.70221468 C17.3997758,10.0416514 18.5469777,10.1265105 20.3069133,9.95679219 C22.9468167,9.70221468 27.1563269,10.0680837 28.6431894,11.3142206 C29.634431,12.1449785 28.5603755,16.6980476 25.4210229,24.9734279 C24.9090015,26.9911426 23.4248603,28 20.9685991,28 C18.5123379,28 14.5559762,28 9.09951388,28 C8.67206018,27.7530849 8.45833333,27.4575458 8.45833333,27.1133828 C8.45833333,26.7692198 8.45833333,21.5028324 8.45833333,11.3142206 Z M0,10.9565217 L6.04166667,10.9565217 L6.04166667,28 L0,28 L0,10.9565217 Z" id="path-2"></path>
+        <filter x="-69.0%" y="-57.1%" width="237.9%" height="242.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.396078431   0 0 0 0 0.062745098   0 0 0 0 1  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing_page" transform="translate(-664.000000, -5045.000000)">
+            <g id="investment_account" transform="translate(-10.000000, 4364.000000)">
+                <g id="Group-15" transform="translate(154.000000, 148.000000)">
+                    <g id="5" transform="translate(513.000000, 521.000000)">
+                        <g id="Group-18" transform="translate(19.000000, 19.000000)">
+                            <g id="Combined-Shape">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

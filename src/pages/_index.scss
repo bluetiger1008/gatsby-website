@@ -1,5 +1,8 @@
 .homepage {
   section {
+    .inner-wrapper {
+      padding: 0 90px;
+    }
     &.banner {
       background: url('/images/bg-banner.png');
       background-size: 100% 100%;
@@ -82,15 +85,63 @@
             position: absolute;
             bottom: -7rem;
             right: 39rem;
-            filter: drop-shadow(30px 50px 50px rgba(0, 0, 0, 0.1));
           }
           &.iphone-account {
             position: absolute;
             right: 0;
             bottom: 6.3rem;
-            filter: drop-shadow(30px 50px 50px rgba(0, 0, 0, 0.1));
           }
         }
+      }
+    }
+    &.featured-on {
+      padding: 150px 0;
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        li {
+
+        }
+      }
+    }
+    &.app-screen {
+      h2 {
+        margin-bottom: 13rem;
+        color: #000;
+      }
+      p {
+        font-size: 2.6rem;
+        color: #000;
+      }
+    }
+    &.account {
+      padding: 150px 0;
+      h2 {
+        margin-bottom: 15rem;
+      }
+      .info {
+        margin-bottom: 6.5rem;
+        .account-img {
+          width: 6.6rem;
+          height: 6.6rem;
+          border-radius: 1rem;
+          background: #fff;
+          box-shadow: 5px 8px 30px 0px rgba(0, 0, 0, 0.1);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 3.9rem;
+        }
+      }
+    }
+    &.safe-secure {
+      .btn-explore {
+        width: 21.7rem;
+        height: 6.5rem;
+        color: #fff;
       }
     }
   }
