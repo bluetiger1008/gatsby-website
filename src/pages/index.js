@@ -19,8 +19,8 @@ const IndexPage = props =>
                   <p>Text your phone a download link to your IOS and android apps</p>
                   <form className="form-inline">
                     <div className="form-group">
-                      <label htmlFor="examplePassword" hidden>Password</label>
-                      <input type="password" name="password" id="examplePassword" placeholder="Password" />
+                      <label htmlFor="mobile" hidden>Password</label>
+                      <input type="phone" name="mobile number" id="mobile" placeholder="Enter your mobile number" />
                     </div>
                     {' '}
                     <button type="button btn-pink-gradient" className="btn">Send</button>
@@ -52,7 +52,7 @@ const IndexPage = props =>
           </ul>
         </div>
       </section>
-      <section className="app-screen">
+      <section className="app-screen goals">
         <div className="wrapper">
           <div className="inner-wrapper">
             <div className="row align-items-center">
@@ -71,7 +71,7 @@ const IndexPage = props =>
           </div>
         </div>
       </section>
-      <section className="app-screen">
+      <section className="app-screen invest">
         <div className="wrapper">
           <div className="inner-wrapper">
             <div className="row align-items-center">
@@ -111,54 +111,56 @@ const IndexPage = props =>
       </section>
       <section className="account">
         <div className="wrapper">
-          <h2 className="text-center">Your very own intelligent investment account</h2>
-          <div className="row">
-            <div className="col-4">
-              <div className="info">
-                <div className="account-img">
-                  <img src="images/icon-necktie.svg" />
+          <div className="inner-wrapper">
+            <h2 className="text-center">Your very own intelligent investment account</h2>
+            <div className="row">
+              <div className="col-4">
+                <div className="info">
+                  <div className="account-img">
+                    <img src="images/icon-necktie.svg" />
+                  </div>
+                  <p>Have over 150 years of <br/> investment experience</p>
                 </div>
-                <p>Have over 150 years of investment experience</p>
               </div>
-            </div>
-            <div className="col-4">
-              <div className="info">
-                <div className="account-img">
-                  <img src="images/icon-trunk.svg" />
+              <div className="col-4">
+                <div className="info">
+                  <div className="account-img">
+                    <img src="images/icon-trunk.svg" />
+                  </div>
+                  <p>Personalised <br/> portfolio <br/> that reflects you</p>
                 </div>
-                <p>Personalised portfolio that reflects you</p>
               </div>
-            </div>
-            <div className="col-4">
-              <div className="info">
-                <div className="account-img">
-                  <img src="images/icon-dollar.svg" />
+              <div className="col-4">
+                <div className="info">
+                  <div className="account-img">
+                    <img src="images/icon-dollar.svg" />
+                  </div>
+                  <p>Invest and withdraw your <br/> money anytime</p>
                 </div>
-                <p>Invest and withdraw your money anytime</p>
               </div>
-            </div>
-            <div className="col-4">
-              <div className="info">
-                <div className="account-img">
-                  <img src="images/icon-alarm.svg" />
+              <div className="col-4">
+                <div className="info">
+                  <div className="account-img">
+                    <img src="images/icon-alarm.svg" />
+                  </div>
+                  <p>Timely investment notification. <br/> Friendly in-app chat support</p>
                 </div>
-                <p>Timely investment notification. Friendly in-app chat support</p>
               </div>
-            </div>
-            <div className="col-4">
-              <div className="info">
-                <div className="account-img">
-                  <img src="images/icon-thumb.svg" />
+              <div className="col-4">
+                <div className="info">
+                  <div className="account-img">
+                    <img src="images/icon-thumb.svg" />
+                  </div>
+                  <p>No paper. No investment <br/> knowledge required</p>
                 </div>
-                <p>No paper. No investment knowledge required</p>
               </div>
-            </div>
-            <div className="col-4">
-              <div className="info">
-                <div className="account-img">
-                  <img src="images/icon-check.svg" />
+              <div className="col-4">
+                <div className="info">
+                  <div className="account-img">
+                    <img src="images/icon-check.svg" />
+                  </div>
+                  <p>Its pretty easy to use. Learn <br/> as you go</p>
                 </div>
-                <p>Its pretty easy to use. Learn as you go</p>
               </div>
             </div>
           </div>

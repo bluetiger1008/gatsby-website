@@ -13,24 +13,34 @@ const Footer = () =>
               <img src="/images/logo.svg" /> 
               <p>FirstStep</p>
             </a>
+            <div className="download-links">
+              <a><img src="/images/app-store-button.png" /></a>
+              <a><img src="/images/play-store-button.png" /></a>
+            </div>
+            <div className="social-shares d-flex justify-content-between">
+              <a><img src="/images/icon-facebook.svg" /></a>
+              <a><img src="/images/icon-twitter.svg" /></a>
+              <a><img src="/images/icon-linkedin.svg" /></a>
+              <a><img src="/images/icon-m.svg" /></a>
+            </div>
           </div>
           <div className="col-3">
-            <h4>Lega</h4>
+            <h4>Legal</h4>
             <ul>
-              <li>Terms and conditions</li>
-              <li>Privacy policy</li>
-              <li>Product disclosure statement</li>
-              <li>Investment option booklet</li>
-              <li>Addtional information booklet</li>
+              <li><a>Terms and conditions</a></li>
+              <li><a>Privacy policy</a></li>
+              <li><a>Product disclosure statement</a></li>
+              <li><a>Investment option booklet</a></li>
+              <li><a>Addtional information booklet</a></li>
             </ul>
           </div>
           <div className="col-3">
             <h4>Company</h4>
             <ul>
-              <li>About us</li>
-              <li>Pricing</li>
-              <li>Blog</li>
-              <li>Uni</li>
+              <li><a>About us</a></li>
+              <li><a>Pricing</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Uni</a></li>
             </ul>
           </div>
           <div className="col-3">
