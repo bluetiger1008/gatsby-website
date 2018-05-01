@@ -56,12 +56,12 @@ const IndexPage = props =>
         <div className="wrapper">
           <div className="inner-wrapper">
             <div className="row align-items-center">
-              <div className="col-6">
+              <div className="col-md-6">
                 <div className="section-left">
                   <img src="images/iphone_contribution.png" className="iphone-img" />
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <div className="section-right text-right">
                   <h2>For small goals or big goals</h2>
                   <p>Set your financial goal and we will help you get there automatically</p>
@@ -75,13 +75,13 @@ const IndexPage = props =>
         <div className="wrapper">
           <div className="inner-wrapper">
             <div className="row align-items-center">
-              <div className="col-6">
+              <div className="col-md-6">
                 <div className="section-left">
                   <h2>Save like a genius through microinvesting</h2>
                   <p>Invest your spare change from everyday purchases and invest recurring deposits</p>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <div className="section-right text-right">
                   <img src="images/iphone_firststep.png" className="iphone-img" />
                 </div>
@@ -94,12 +94,12 @@ const IndexPage = props =>
         <div className="wrapper">
           <div className="inner-wrapper">
             <div className="row align-items-center">
-              <div className="col-6">
+              <div className="col-md-6">
                 <div className="section-left">
                   <img src="images/iphone_transaction.png" className="iphone-img" />
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-md-6">
                 <div className="section-right text-right">
                   <h2>Spend less and stay on track</h2>
                   <p>Enhance your savings through automatic spend categorisation</p>
@@ -114,7 +114,7 @@ const IndexPage = props =>
           <div className="inner-wrapper">
             <h2 className="text-center">Your very own intelligent investment account</h2>
             <div className="row">
-              <div className="col-4">
+              <div className="col-md-4 col-6">
                 <div className="info">
                   <div className="account-img">
                     <img src="images/icon-necktie.svg" />
@@ -122,7 +122,7 @@ const IndexPage = props =>
                   <p>Have over 150 years of <br/> investment experience</p>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4 col-6">
                 <div className="info">
                   <div className="account-img">
                     <img src="images/icon-trunk.svg" />
@@ -130,7 +130,7 @@ const IndexPage = props =>
                   <p>Personalised <br/> portfolio <br/> that reflects you</p>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4 col-6">
                 <div className="info">
                   <div className="account-img">
                     <img src="images/icon-dollar.svg" />
@@ -138,7 +138,7 @@ const IndexPage = props =>
                   <p>Invest and withdraw your <br/> money anytime</p>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4 col-6">
                 <div className="info">
                   <div className="account-img">
                     <img src="images/icon-alarm.svg" />
@@ -146,7 +146,7 @@ const IndexPage = props =>
                   <p>Timely investment notification. <br/> Friendly in-app chat support</p>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4 col-6">
                 <div className="info">
                   <div className="account-img">
                     <img src="images/icon-thumb.svg" />
@@ -154,7 +154,7 @@ const IndexPage = props =>
                   <p>No paper. No investment <br/> knowledge required</p>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-md-4 col-6">
                 <div className="info">
                   <div className="account-img">
                     <img src="images/icon-check.svg" />
@@ -170,7 +170,7 @@ const IndexPage = props =>
         <div className="wrapper">
           <h2 className="text-center">Safe and secure</h2>
           <div className="row">
-            <div className="col-8 offset-md-2">
+            <div className="col-md-8 offset-md-2">
               <div className="text-center">
                 <p>Firststep is a fully licensed managed investment scheme, regulated by the Australian investments Securities Commission. <br/><br/>
                 Every Furststep account is protected by bank level encryption, anti fraud protection and insurance</p>
