@@ -14,8 +14,8 @@ const Footer = () =>
               <p>FirstStep</p>
             </a>
             <div className="download-links">
-              <a><img src="/images/app-store-button.png" /></a>
-              <a><img src="/images/play-store-button.png" /></a>
+              <a className="btn-download appstore"><img src="/images/app-store-button.png" /></a>
+              <a className="btn-download playstore"><img src="/images/play-store-button.png" /></a>
             </div>
             <div className="social-shares d-flex justify-content-between">
               <a><img src="/images/icon-facebook.svg" /></a>
@@ -46,8 +46,8 @@ const Footer = () =>
           <div className="col-md-3">
             <h4>Where to find us</h4>
             <p className="address">Level 1, 333 Exhibition St Melbourne VIC 3000 Australia</p>
-            <p>Call us: 03-8566-7771</p>
-            <p>Mail at: hello@firststep.com</p>
+            <p className="contact">Call us: <span>03-8566-7771</span></p>
+            <p className="contact">Mail at: <span>hello@firststep.com</span></p>
           </div>
         </div>
         <div className="row text-center justify-content-center">

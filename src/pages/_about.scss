@@ -1,0 +1,124 @@
+.about-page {
+  section {
+    &.first {
+      height: 85rem;
+      padding-top: 26rem;
+      .inner-wrapper {
+        padding: 0 37rem;
+        .feature-icons {
+          position: relative;
+          height: 36rem;
+          .feature-icon {
+            border-radius: 50%;
+            background-color: #fff;
+            box-shadow: 5px 25px 60px 0px rgba(0, 0, 0, 0.7);
+            padding: 4rem;
+            position: absolute;
+            &.rising {
+              top: 7.5rem;
+              width: 14rem;
+              height: 14rem;
+            }
+            &.search {
+              bottom: 0;
+              left: 19rem;
+              width: 17rem;
+              height: 17rem;
+            }
+            &.floppy {
+              top: 0;
+              right: 15rem;
+              width: 20rem;
+              height: 20rem;
+            }
+            &.shield {
+              bottom: 4.5rem;
+              right: 0;
+              width: 13rem;
+              height: 13rem;
+            }
+          }
+        }
+      }
+    }
+    &.team {
+      .team-title {
+        text-align: center;
+        padding: 0 28rem;
+        margin-bottom: 5rem;
+      }
+      .members {
+        margin: 0 -60px;
+        .member {
+          padding: 0 60px;
+          .member-photo {
+            position: relative;
+            margin-bottom: 4.5rem;
+            .img-photo {
+              width: 100%;
+              padding-right: 10rem;
+              position: relative;
+              z-index: 2;
+            }
+            .bg-photo {
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+            }
+          }
+          .member-info {
+            margin-bottom: 7rem;
+            h3 {
+              font-size: 3rem;
+              margin-bottom: 2.5rem;
+              color: #000;
+            }
+            p {
+              font-size: 2.2rem;
+              color: #6E7272;
+              line-height: 4.5rem;
+              padding-right: 10rem;
+            }
+          }
+        }
+      }
+    }
+    &.how-work {
+      margin: 15rem 0;
+      h2 {
+        text-align: center;
+        margin-bottom: 15rem;
+      }
+      .number {
+        display: inline-block;
+        width: 6.6rem;
+        height: 6.6rem;
+        background: #fff;
+        box-shadow: 5px 8px 30px 0px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        border-radius: 1rem;
+        margin-bottom: 4rem;
+        p {
+          font-size: 3rem;
+          background: linear-gradient(to bottom, #6510FF 0%, #7E72F7 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          line-height: 6.6rem;
+        }
+      }
+      .description {
+        h4 {
+          font-size: 2.6rem;
+          color: #000;
+          line-height: 4.5rem;
+        }
+        p {
+          font-size: 1.8rem;
+          line-height: 4.5rem;
+          color: #6E7272;
+        }
+      }
+    }
+  }
+}

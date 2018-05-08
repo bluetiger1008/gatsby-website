@@ -14,6 +14,11 @@
         display: flex;
         margin-bottom: 3.5rem;
         a {
+            &.btn-download {
+                &.appstore {
+                    margin-right: 1.7rem;
+                }
+            }
             img {
                 width: 13.4rem;
             }
@@ -32,6 +37,8 @@
     }
     h4 {
         font-size: 2.6rem;
+        margin-bottom: 2.8rem;
+        color: #000;
     }
     ul {
         list-style: none;
@@ -44,9 +51,24 @@
             }
         }
     }
+    p {
+        &.address {
+            margin-bottom: 2rem;
+            font-size: 1.8rem;
+            color: #000000;
+        }
+        &.contact {
+            font-size: 1.6rem;
+            color: #6E7272;
+            span {
+                color: #6510FF;
+            }
+        }
+    }
     .copyright, .reserved-date {
         font-size: 1.4rem;
         line-height: 2.7rem;
+        color: #9A9E9E;
     }
     .copyright {
         margin-bottom: 3rem;

@@ -6,7 +6,7 @@ const Header = () =>
   (<header className="header">
     <div className="wrapper">
       <nav className="navbar navbar-expand-lg navbar-light">
-        <a className="navbar-brand">
+        <a className="navbar-brand" href="/">
           <img src="/images/logo.svg" /> 
           <p>FirstStep</p>
         </a>
