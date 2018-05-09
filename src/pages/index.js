@@ -45,7 +45,7 @@ class IndexPage extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6" data-aos="fade-left">
+                <div className="col-md-6" data-aos="fade-left" data-aos-once>
                   <div className="banner-right">
                     <img src="images/iphone_x.png" className="iphone-investment iphone-img"/>
                     <img src="images/iphone_account.png" className="iphone-account iphone-img"/>
@@ -54,7 +54,7 @@ class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="featured-on" data-aos="fade-up">
+          <section className="featured-on" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <ul>
                 <li><p>Featured on</p></li>
@@ -65,7 +65,7 @@ class IndexPage extends React.Component {
               </ul>
             </div>
           </section>
-          <section className="app-screen goals" data-aos="fade-up">
+          <section className="app-screen goals" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper">
                 <div className="row align-items-center">
@@ -84,17 +84,17 @@ class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="app-screen invest" data-aos="fade-up">
+          <section className="app-screen invest" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper">
                 <div className="row align-items-center">
-                  <div className="col-md-6">
+                  <div className="col-md-6 content">
                     <div className="section-left">
                       <h2>Save like a genius through microinvesting</h2>
                       <p>Invest your spare change from everyday purchases and invest recurring deposits</p>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-6 phone">
                     <div className="section-right text-right">
                       <img src="images/iphone_firststep.png" className="iphone-img" />
                     </div>
@@ -103,7 +103,7 @@ class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="app-screen transaction" data-aos="fade-up">
+          <section className="app-screen transaction" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper">
                 <div className="row align-items-center">
@@ -122,7 +122,7 @@ class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="account" data-aos="fade-up">
+          <section className="account" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper">
                 <h2 className="text-center">Your very own intelligent investment account</h2>

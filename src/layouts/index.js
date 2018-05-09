@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Header from '../components/header';
+import NavMenu from '../components/navmenu';
 import Footer from '../components/footer';
 
 import '../../sass/style.scss';
@@ -11,6 +12,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Gatsby React Boilerplate"
     />
+    <NavMenu />
     <Header />
     {children()}
     <Footer />

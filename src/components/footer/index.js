@@ -8,7 +8,7 @@ const Footer = () =>
     <div className="wrapper">
       <div className="inner-wrapper">
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 col-section">
             <a className="navbar-brand">
               <img src="/images/logo.svg" /> 
               <p>FirstStep</p>
@@ -24,7 +24,7 @@ const Footer = () =>
               <a><img src="/images/icon-m.svg" /></a>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-section">
             <h4>Legal</h4>
             <ul>
               <li><a>Terms and conditions</a></li>
@@ -34,7 +34,7 @@ const Footer = () =>
               <li><a>Addtional information booklet</a></li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-section">
             <h4>Company</h4>
             <ul>
               <li><a>About us</a></li>
@@ -43,7 +43,7 @@ const Footer = () =>
               <li><a>Uni</a></li>
             </ul>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-section">
             <h4>Where to find us</h4>
             <p className="address">Level 1, 333 Exhibition St Melbourne VIC 3000 Australia</p>
             <p className="contact">Call us: <span>03-8566-7771</span></p>

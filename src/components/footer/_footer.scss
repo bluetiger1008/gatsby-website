@@ -77,4 +77,11 @@
         margin-bottom: 3rem;
         margin-top: 7rem;
     }
+    @media (max-width: 575.98px) { 
+        padding: 5rem 0;
+        .col-section {
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+    }
 }

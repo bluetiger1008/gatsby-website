@@ -207,7 +207,7 @@
     section {
       &.banner {
         .banner-left {
-          margin: 10rem 0;
+          margin: 15rem 0;
           position: relative;
           z-index: 100;
           .download-cta {
@@ -241,11 +241,68 @@
           }
         }
       }
+      &.featured-on {
+        margin-top: 4rem;
+        display: none;
+        ul {
+          li {
+            img {
+              max-width: 50%;
+            }
+          }
+        }
+      }
+      &.app-screen {
+        margin: 4rem 0;
+        padding: 0 !important;
+        &.goals, &.transaction {
+          margin-bottom: 0;
+          .section-left {
+            text-align: center;
+            img {
+              width: 80%;
+            }
+          }
+          .section-right {
+            margin: 5rem 0;
+            text-align: center !important;
+          }
+        }
+        &.invest {
+          .content {
+            order: 2;
+          }
+          .phone {
+            order: 1;
+          }
+          .section-left {
+            text-align: center;
+            margin: 5rem 0;
+          }
+          .section-right {
+            text-align: center !important;
+            img {
+              width: 80%;
+            }
+          }
+        }
+      }
       &.account {
+        padding: 0;
+        margin: 5rem 0;
         .wrapper {
           .inner-wrapper {
             padding: 0;
+            h2 {
+              margin-bottom: 5rem;
+            }
           }
+        }
+      }
+      &.safe-secure {
+        margin: 5rem 0;
+        h2 {
+          margin-bottom: 5rem;
         }
       }
     }

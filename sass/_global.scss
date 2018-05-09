@@ -7,6 +7,7 @@ body {
     color: #000;
     h2 {
         font-size: 5.2rem;
+        color: #000;
     }
     p {
         font-size: 1.6rem;
@@ -42,7 +43,7 @@ img.iphone-img {
 }
 
 @media (max-width: 575.98px) { 
-    body {
+    html, body {
         font-size: 8px;
     }
     .wrapper {
