@@ -8,14 +8,16 @@ import HowTo from '../components/how-to';
 import './_pricing.scss';
 
 class PricingPage extends React.Component { 
-  constructor(props, context) { 
-    super(props, context); 
-    AOS.init(); 
+  componentDidMount() { 
+    const isBrowser = typeof window !== 'undefined';
+    const AOS = isBrowser ? require('aos') : undefined;
+    this.aos = AOS;
+    this.aos.init();
   }
 
-  componentWillReceiveProps (){ 
-    AOS.refresh(); 
-  } 
+  componentDidUpdate (){ 
+    this.aos.refresh();
+  }
 
   render() {
     return (

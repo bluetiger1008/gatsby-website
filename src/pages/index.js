@@ -1,20 +1,21 @@
 /* global graphql */
 
 import React from 'react';
-import AOS from 'aos'; 
 
 import Features from '../components/features';
 import HowTo from '../components/how-to';
 import './_index.scss';
 
 class IndexPage extends React.Component { 
-  constructor(props, context) { 
-    super(props, context); 
-    AOS.init(); 
+  componentDidMount() { 
+    const isBrowser = typeof window !== 'undefined';
+    const AOS = isBrowser ? require('aos') : undefined;
+    this.aos = AOS;
+    this.aos.init();
   }
 
-  componentWillReceiveProps (){ 
-    AOS.refresh(); 
+  componentDidUpdate (){ 
+    this.aos.refresh();
   } 
 
   render() {
