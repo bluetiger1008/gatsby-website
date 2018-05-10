@@ -221,17 +221,26 @@
       }
     }
   }
-  @media (max-width: 1199.98px) and (min-width: 767.98px){ 
+  @media (max-width: 1400px) and (min-width: 767.98px){ 
     section {
       &.first {
         padding-top: 20rem;
         .inner-wrapper {
-          padding: 0 20rem;
+          padding: 0 10rem;
         }
       }
       &.team {
         .team-title {
-          padding: 0 20rem;
+          padding: 0 10rem;
+        }
+        .members {
+          .member {
+            .member-info {
+              p {
+                padding-right: 0;
+              }
+            }
+          }
         }
       }
       &.how-work {

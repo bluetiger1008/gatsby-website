@@ -4,6 +4,8 @@
       background: url('/images/bg-banner.png');
       background-size: 100% 100%;
       .banner-left {
+        position: relative;
+        z-index: 10;
         margin-top: 33.2rem;
         margin-bottom: 12.5rem;
         h1 {

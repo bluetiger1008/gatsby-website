@@ -115,6 +115,14 @@
         .price-thumb {
           height: 30rem;
           margin-bottom: 5rem;
+          h2 {
+            span {
+              display: block;
+            }
+          }
+          p {
+            text-align: center;
+          }
         }
       }
       &.what-get {
@@ -133,6 +141,17 @@
         p {
           padding: 0;
           margin-bottom: 6rem;
+        }
+      }
+    }
+  }
+  @media (max-width: 1199.98px) {
+    section {
+      &.pricing-switch {
+        .price-thumb {
+          h2 {
+            font-size: 6rem;
+          }
         }
       }
     }

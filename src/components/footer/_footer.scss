@@ -19,6 +19,7 @@
     }
     .download-links {
         display: flex;
+        flex-wrap: wrap;
         margin-bottom: 3.5rem;
         a {
             &.btn-download {
@@ -32,7 +33,9 @@
         }
     }
     .social-shares {
+        flex-wrap: wrap;
         a {
+            margin-bottom: 1rem;
             width: 6.8rem;
             height: 6.8rem;
             border-radius: 50%;
@@ -90,24 +93,44 @@
         .navbar-brand {
             align-items: center;
         }
-        .social-shares {
-            justify-content: initial !important;
-            a {
-                margin-right: 1rem;
-            }
-        }
     }
     @media (max-width: 1199.98px) and (min-width: 768px) {
         .download-links {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
+            flex-direction: column;
             a.btn-download {
-                width: 45%;
                 &.appstore {
                     margin-right: 0;
+                    margin-bottom: 1rem;
                 }
-                img {
-                    width: 100%;
+            }
+        }
+        .social-shares {
+            justify-content: initial !important;
+            a {
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+            }
+        }
+        .navbar-brand {
+            p {
+                font-size: 2rem;
+            }
+        }
+        h4 {
+            font-size: 2rem;
+        }
+        .social-shares {
+            a {
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+        p {
+            &.contact {
+                a {
+                    display: block;
                 }
             }
         }
