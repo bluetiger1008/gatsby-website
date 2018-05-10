@@ -2,6 +2,7 @@
 
 import React from 'react';
 import AOS from 'aos'; 
+import { withPrefix } from 'gatsby-link';
 
 import Features from '../components/features';
 import HowTo from '../components/how-to';
@@ -31,7 +32,8 @@ class AboutPage extends React.Component {
                   <p>We are giving all Australians access to fiancial education, technology and services</p>
                 </div>
                 <div className="feature-icons">
-                  <img src="images/icon-rising.svg" className="feature-icon rising"/>
+                  <img src={withPrefix('/images/icon-rising.svg')} className="feature-icon rising"/>
+                  {/* <img src="images/icon-rising.svg" className="feature-icon rising"/> */}
                   <img src="images/icon-search.svg" className="feature-icon search"/>
                   <img src="images/icon-floppy.svg" className="feature-icon floppy"/>
                   <img src="images/icon-shield.svg" className="feature-icon shield"/>
