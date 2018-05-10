@@ -96,35 +96,35 @@ class AboutPage extends React.Component {
               <div className="inner-wrapper">
                 <h2>How we work</h2>
                 <div className="row">
-                  <div className="col-md-4">
+                  <div className="col-md-4 feature">
                     <div className="number"><p>1</p></div>
                     <div className="description">
                       <h4>Stronger with every thread</h4>
                       <p>We believe our team’s success is driven by how well we share, learn and iterate together</p>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-4 feature">
                     <div className="number"><p>2</p></div>
                     <div className="description">
                       <h4>Candor and compassion</h4>
                       <p>We strive to share what’s on our minds candidly and with empathy-with our peers, managers and partners </p>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-4 feature">
                     <div className="number"><p>3</p></div>
                     <div className="description">
                       <h4>Empowered and accountable</h4>
                       <p>We empower each other to take ownership, while holding each other accountable for seeing work through</p>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-4 feature">
                     <div className="number"><p>4</p></div>
                     <div className="description">
                       <h4>The customer decides</h4>
                       <p>We bring our customers perspective into every meeting, every discussion, and every decision we make</p>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div className="col-md-4 feature">
                     <div className="number"><p>5</p></div>
                     <div className="description">
                       <h4>Nurture trust</h4>

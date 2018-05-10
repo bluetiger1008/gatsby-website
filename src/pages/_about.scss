@@ -1,8 +1,11 @@
 .about-page {
   section {
     &.first {
-      height: 85rem;
       padding-top: 26rem;
+      background: url('/images/shaped-bg8.png');
+      background-position: center center;
+      background-repeat: no-repeat;
+      margin-bottom: 13.4rem;
       .inner-wrapper {
         padding: 0 37rem;
         h2 {
@@ -11,6 +14,7 @@
         p {
           color: #000;
           margin-bottom: 10rem;
+          font-size: 2.6rem;
         }
         .feature-icons {
           position: relative;
@@ -53,6 +57,13 @@
         text-align: center;
         padding: 0 28rem;
         margin-bottom: 5rem;
+        h2 {
+          margin-bottom: 5.5rem;
+        }
+        p {
+          font-size: 2.6rem;
+          color: #000;
+        }
       }
       .members {
         margin: 0 -60px;
@@ -92,7 +103,10 @@
       }
     }
     &.how-work {
-      margin: 15rem 0;
+      margin: 15rem 0 5rem;
+      background: url('/images/shaped-bg9.png');
+      background-repeat: no-repeat;
+      background-position: right bottom;
       h2 {
         text-align: center;
         margin-bottom: 15rem;
@@ -107,6 +121,7 @@
         border-radius: 1rem;
         margin-bottom: 4rem;
         p {
+          font-family: "Arial Black";
           font-size: 3rem;
           background: linear-gradient(to bottom, #6510FF 0%, #7E72F7 100%);
           -webkit-background-clip: text;
@@ -125,6 +140,83 @@
           font-size: 1.8rem;
           line-height: 4.5rem;
           color: #6E7272;
+        }
+      }
+    }
+  }
+  @media (max-width: 575.98px) { 
+    section {
+      &.first {
+        padding-top: 15rem;
+        .wrapper {
+          .inner-wrapper {
+            padding: 0;
+            p {
+              margin-bottom: 5rem;
+            }
+            .feature-icons {
+              height: 30rem;
+              .feature-icon {
+                &.rising {
+                  width: 10rem;
+                  height: 10rem;
+                }
+                &.search {
+                  width: 13rem;
+                  height: 13rem;
+                  left: 15rem;
+                }
+                &.floppy {
+                  width: 15rem;
+                  height: 15rem;
+                }
+                &.shield {
+                  width: 12rem;
+                  height: 12rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      &.team {
+        .team-title {
+          padding: 0;
+          h2 {
+            margin-bottom: 4.5rem;
+          }
+        }
+        .members {
+          margin: 0 -15px;
+          .member {
+            padding: 0 15px;
+            .member-photo {
+              .img-photo {
+                padding-right: 0;
+              }
+            }
+            .member-info {
+              text-align: center;
+              p {
+                padding-right: 0;
+              }
+            }
+          }
+        }
+      }
+      &.how-work {
+        margin-top: 4rem;
+        h2 {
+          margin-bottom: 4.5rem;
+        }
+        .feature {
+          text-align: center;
+          .number {
+            margin-bottom: 1rem;
+          }
+          .description {
+            margin-bottom: 2rem;
+          }
         }
       }
     }

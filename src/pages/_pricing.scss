@@ -26,6 +26,7 @@
         border-bottom-right-radius: 2.4rem;
         border-bottom-left-radius: 2.4rem;
         position: relative;
+        background: #fff;
         h2 {
           font-size: 7rem;
           span {
@@ -94,6 +95,40 @@
         height: 6.5rem;
         border-radius: 1rem;
         font-size: 2rem;
+      }
+    }
+  }
+  @media (max-width: 575.98px) { 
+    section {
+      &.simple-pricing {
+        height: auto;
+        padding: 15rem 0;
+      }
+      &.pricing-switch {
+        margin-top: -5rem;
+        margin-bottom: 5rem;
+        .price-thumb {
+          height: 30rem;
+          margin-bottom: 5rem;
+        }
+      }
+      &.what-get {
+        h2 {
+          margin-bottom: 4.5rem;
+        }
+        .item {
+          margin-bottom: 4rem;
+        }
+      }
+      &.special-offer {
+        margin: 5rem 0;
+        h2 {
+          margin-bottom: 4.5rem;
+        }
+        p {
+          padding: 0;
+          margin-bottom: 6rem;
+        }
       }
     }
   }
