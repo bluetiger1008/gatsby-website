@@ -1,6 +1,7 @@
 /* global graphql */
 
 import React from 'react';
+import { withPrefix } from 'gatsby-link';
 
 import Features from '../components/features';
 import HowTo from '../components/how-to';
@@ -48,8 +49,8 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="col-md-6" data-aos="fade-left" data-aos-once>
                   <div className="banner-right">
-                    <img src="images/iphone_x.png" className="iphone-investment iphone-img"/>
-                    <img src="images/iphone_account.png" className="iphone-account iphone-img"/>
+                    <img src={withPrefix('/images/iphone_x.png')} className="iphone-investment iphone-img"/>
+                    <img src={withPrefix('/images/iphone_account.png')} className="iphone-account iphone-img"/>
                   </div>
                 </div>
               </div>
@@ -59,10 +60,18 @@ class IndexPage extends React.Component {
             <div className="wrapper">
               <ul>
                 <li><p>Featured on</p></li>
-                <li><img src="images/Sydney_Morning_Herald_logo.png" /></li>
-                <li><img src="images/theagelogo.png" /></li>
-                <li><img src="images/startup-smart.png" /></li>
-                <li><img src="images/logo-orange.png" /></li>
+                <li>
+                  <img src={withPrefix('images/Sydney_Morning_Herald_logo.png')} />
+                </li>
+                <li>
+                  <img src={withPrefix('images/theagelogo.png')} />
+                </li>
+                <li>
+                  <img src={withPrefix('images/startup-smart.png')} />
+                </li>
+                <li>
+                  <img src={withPrefix('images/logo-orange.png')} />
+                </li>
               </ul>
             </div>
           </section>
@@ -72,7 +81,7 @@ class IndexPage extends React.Component {
                 <div className="row align-items-center">
                   <div className="col-md-6">
                     <div className="section-left">
-                      <img src="images/iphone_contribution.png" className="iphone-img" />
+                      <img src={withPrefix('images/iphone_contribution.png')} className="iphone-img"/>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -97,7 +106,7 @@ class IndexPage extends React.Component {
                   </div>
                   <div className="col-md-6 phone">
                     <div className="section-right text-right">
-                      <img src="images/iphone_firststep.png" className="iphone-img" />
+                      <img src={withPrefix('images/iphone_firststep.png')} className="iphone-img"/>
                     </div>
                   </div>
                 </div>
@@ -110,7 +119,7 @@ class IndexPage extends React.Component {
                 <div className="row align-items-center">
                   <div className="col-md-6">
                     <div className="section-left">
-                      <img src="images/iphone_transaction.png" className="iphone-img" />
+                      <img src={withPrefix('images/iphone_transaction.png')} className="iphone-img"/>
                     </div>
                   </div>
                   <div className="col-md-6">
@@ -131,7 +140,7 @@ class IndexPage extends React.Component {
                   <div className="col-md-4 col-6">
                     <div className="info">
                       <div className="account-img">
-                        <img src="images/icon-necktie.svg" />
+                        <img src={withPrefix('images/icon-necktie.svg')} />
                       </div>
                       <p>Have over 150 years of <br/> investment experience</p>
                     </div>
@@ -139,7 +148,7 @@ class IndexPage extends React.Component {
                   <div className="col-md-4 col-6">
                     <div className="info">
                       <div className="account-img">
-                        <img src="images/icon-trunk.svg" />
+                        <img src={withPrefix('images/icon-trunk.svg')} />
                       </div>
                       <p>Personalised <br/> portfolio <br/> that reflects you</p>
                     </div>
@@ -147,7 +156,7 @@ class IndexPage extends React.Component {
                   <div className="col-md-4 col-6">
                     <div className="info">
                       <div className="account-img">
-                        <img src="images/icon-dollar.svg" />
+                        <img src={withPrefix('images/icon-dollar.svg')} />
                       </div>
                       <p>Invest and withdraw your <br/> money anytime</p>
                     </div>
@@ -155,7 +164,7 @@ class IndexPage extends React.Component {
                   <div className="col-md-4 col-6">
                     <div className="info">
                       <div className="account-img">
-                        <img src="images/icon-alarm.svg" />
+                        <img src={withPrefix('images/icon-alarm.svg')} />
                       </div>
                       <p>Timely investment notification. <br/> Friendly in-app chat support</p>
                     </div>
@@ -171,7 +180,7 @@ class IndexPage extends React.Component {
                   <div className="col-md-4 col-6">
                     <div className="info">
                       <div className="account-img">
-                        <img src="images/icon-check.svg" />
+                        <img src={withPrefix('images/icon-check.svg')} />
                       </div>
                       <p>Its pretty easy to use. Learn <br/> as you go</p>
                     </div>

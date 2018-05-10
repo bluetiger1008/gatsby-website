@@ -33,10 +33,9 @@ class AboutPage extends React.Component {
                 </div>
                 <div className="feature-icons">
                   <img src={withPrefix('/images/icon-rising.svg')} className="feature-icon rising"/>
-                  {/* <img src="images/icon-rising.svg" className="feature-icon rising"/> */}
-                  <img src="images/icon-search.svg" className="feature-icon search"/>
-                  <img src="images/icon-floppy.svg" className="feature-icon floppy"/>
-                  <img src="images/icon-shield.svg" className="feature-icon shield"/>
+                  <img src={withPrefix('/images/icon-search.svg')} className="feature-icon search"/>
+                  <img src={withPrefix('/images/icon-floppy.svg')} className="feature-icon floppy"/>
+                  <img src={withPrefix('/images/icon-shield.svg')} className="feature-icon shield"/>
                 </div>
               </div>
             </div>
@@ -51,8 +50,8 @@ class AboutPage extends React.Component {
                 <div className="row members">
                   <div className="col-md-6 member">
                     <div className="member-photo">
-                      <img src="images/man.png" className="img-photo" />
-                      <img src="images/triangle.png" className="bg-photo" />
+                      <img src={withPrefix('/images/man.png')} className="img-photo"/>
+                      <img src={withPrefix('/images/triangle.png')} className="bg-photo"/>
                     </div>
                     <div className="member-info">
                       <h3>Garreth Edwards, CEO</h3>
@@ -61,8 +60,8 @@ class AboutPage extends React.Component {
                   </div>
                   <div className="col-md-6 member">
                     <div className="member-photo">
-                      <img src="images/man.png" className="img-photo" />
-                      <img src="images/triangle.png" className="bg-photo" />
+                    <img src={withPrefix('/images/man.png')} className="img-photo"/>
+                      <img src={withPrefix('/images/triangle.png')} className="bg-photo"/>
                     </div>
                     <div className="member-info">
                       <h3>Garreth Edwards, CEO</h3>
@@ -71,8 +70,8 @@ class AboutPage extends React.Component {
                   </div>
                   <div className="col-md-6 member">
                     <div className="member-photo">
-                      <img src="images/man.png" className="img-photo" />
-                      <img src="images/triangle.png" className="bg-photo" />
+                      <img src={withPrefix('/images/man.png')} className="img-photo"/>
+                      <img src={withPrefix('/images/triangle.png')} className="bg-photo"/>
                     </div>
                     <div className="member-info">
                       <h3>Garreth Edwards, CEO</h3>
@@ -81,8 +80,8 @@ class AboutPage extends React.Component {
                   </div>
                   <div className="col-md-6 member">
                     <div className="member-photo">
-                      <img src="images/man.png" className="img-photo" />
-                      <img src="images/triangle.png" className="bg-photo" />
+                      <img src={withPrefix('/images/man.png')} className="img-photo"/>
+                      <img src={withPrefix('/images/triangle.png')} className="bg-photo"/>
                     </div>
                     <div className="member-info">
                       <h3>Garreth Edwards, CEO</h3>

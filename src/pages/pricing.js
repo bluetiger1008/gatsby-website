@@ -2,6 +2,7 @@
 
 import React from 'react';
 import AOS from 'aos'; 
+import { withPrefix } from 'gatsby-link';
 
 import Features from '../components/features';
 import HowTo from '../components/how-to';
@@ -61,7 +62,7 @@ class PricingPage extends React.Component {
                   <div className="col-md-6">
                     <div className="item">
                       <div className="check">
-                        <img src="images/icon-tick.svg" />
+                        <img src={withPrefix('/images/icon-tick.svg')}/>
                       </div>
                       <div className="info">
                         <h4>Low minimums</h4>
@@ -72,7 +73,7 @@ class PricingPage extends React.Component {
                   <div className="col-md-6">
                     <div className="item">
                       <div className="check">
-                        <img src="images/icon-tick.svg" />
+                        <img src={withPrefix('/images/icon-tick.svg')}/>
                       </div>
                       <div className="info">
                         <h4>Low minimums</h4>
@@ -83,7 +84,7 @@ class PricingPage extends React.Component {
                   <div className="col-md-6">
                     <div className="item">
                       <div className="check">
-                        <img src="images/icon-tick.svg" />
+                        <img src={withPrefix('/images/icon-tick.svg')}/>
                       </div>
                       <div className="info">
                         <h4>Save effortlessly</h4>
@@ -94,7 +95,7 @@ class PricingPage extends React.Component {
                   <div className="col-md-6">
                     <div className="item">
                       <div className="check">
-                        <img src="images/icon-tick.svg" />
+                        <img src={withPrefix('/images/icon-tick.svg')}/>
                       </div>
                       <div className="info">
                         <h4>Investing themes</h4>
@@ -105,7 +106,7 @@ class PricingPage extends React.Component {
                   <div className="col-md-6">
                     <div className="item">
                       <div className="check">
-                        <img src="images/icon-tick.svg" />
+                        <img src={withPrefix('/images/icon-tick.svg')}/>
                       </div>
                       <div className="info">
                         <h4>Save effortlessly</h4>
@@ -116,7 +117,7 @@ class PricingPage extends React.Component {
                   <div className="col-md-6">
                     <div className="item">
                       <div className="check">
-                        <img src="images/icon-tick.svg" />
+                        <img src={withPrefix('/images/icon-tick.svg')}/>
                       </div>
                       <div className="info">
                         <h4>Make invest automatic</h4>
