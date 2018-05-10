@@ -24,7 +24,7 @@ class AboutPage extends React.Component {
     return (
       <main>
         <div className="about-page">
-          <section className="first">
+          <section className="first" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper">
                 <div className="text-center">
@@ -40,7 +40,7 @@ class AboutPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="team">
+          <section className="team" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper">
                 <div className="team-title">
@@ -92,7 +92,7 @@ class AboutPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="how-work">
+          <section className="how-work" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper">
                 <h2>How we work</h2>

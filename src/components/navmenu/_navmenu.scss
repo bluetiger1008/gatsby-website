@@ -1,7 +1,7 @@
 .bm-burger-button {
   display: none;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 991.98px) {
   /* Position and sizing of burger button */
   .bm-burger-button {
       display: block;
@@ -9,7 +9,7 @@
       width: 25px;
       height: 20px;
       right: 24px;
-      top: 30px;
+      top: 30px !important;
   }
   
   /* Color/shape of burger icon bars */
@@ -54,4 +54,10 @@
   .bm-overlay {
       background: rgba(0, 0, 0, 0.3);
   }
+}
+
+@media (max-width: 1199.98px) { 
+    .bm-burger-button {
+        top: 6.4rem;
+    }
 }

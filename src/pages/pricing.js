@@ -24,7 +24,7 @@ class PricingPage extends React.Component {
     return (
       <main>
         <div className="pricing-page">
-          <section className="simple-pricing">
+          <section className="simple-pricing" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper">
                 <div className="title">
@@ -34,7 +34,7 @@ class PricingPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="pricing-switch">
+          <section className="pricing-switch" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper">
                 <div className="row">
@@ -54,7 +54,7 @@ class PricingPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="what-get">
+          <section className="what-get" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper">
                 <h2 className="text-center">What you get from us</h2>
@@ -129,7 +129,7 @@ class PricingPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="special-offer">
+          <section className="special-offer" data-aos="fade-up" data-aos-once>
             <div className="wrapper">
               <div className="inner-wrapper text-center">
                 <h2 className="text-center">Special offers for students</h2>

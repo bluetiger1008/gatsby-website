@@ -203,7 +203,7 @@
       }
     }
   }
-  @media (max-width: 575.98px) { 
+  @media (max-width: 767.98px) { 
     section {
       &.banner {
         .banner-left {
@@ -260,7 +260,7 @@
           .section-left {
             text-align: center;
             img {
-              width: 80%;
+              width: 250px;
             }
           }
           .section-right {
@@ -282,7 +282,7 @@
           .section-right {
             text-align: center !important;
             img {
-              width: 80%;
+              width: 250px;
             }
           }
         }
@@ -293,9 +293,6 @@
         .wrapper {
           .inner-wrapper {
             padding: 0;
-            h2 {
-              margin-bottom: 5rem;
-            }
           }
         }
       }
@@ -304,6 +301,84 @@
         h2 {
           margin-bottom: 5rem;
         }
+      }
+    }
+  }
+  @media (max-width: 1199.98px) { 
+    section {
+      &.banner {
+        .banner-left {
+          margin: 15rem 0;
+          .download-cta {
+            margin-top: 5rem;
+            form {
+              justify-content: space-between;
+              .form-group {
+                width: 70%;
+              }
+              button {
+                width: 25%;
+                margin-left: 0;
+              }
+            }
+          }
+          .phone-cta {
+            margin-top: 4rem;
+          }
+        }
+        .banner-right {
+          img {
+            &.iphone-account {
+              width: 20rem;
+              top: 20rem;
+              bottom: auto;
+            }
+            &.iphone-investment {
+              width: 20rem;
+              right: 16rem;
+              z-index: 10;
+              top: 25rem;
+              bottom: auto;
+            }
+          }
+        }
+      }
+      &.featured-on {
+        margin-top: 4rem;
+        display: none;
+      }
+      &.app-screen {
+        &.goals {
+          margin-bottom: 0;
+          padding: 5rem 0;
+        }
+        &.invest {
+          padding: 5rem 0;
+        }
+        &.transaction {
+          padding: 5rem 0;
+        }
+      }
+      &.account {
+        padding: 5rem 0;
+        .wrapper {
+          .inner-wrapper {
+            padding: 0 2rem;
+            h2 {
+              margin-bottom: 5rem;
+            }
+            .info {
+              p {
+                br {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+      }
+      &.safe-secure {
+        margin: 5rem 0;
       }
     }
   }

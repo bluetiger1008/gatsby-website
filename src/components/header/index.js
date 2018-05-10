@@ -1,4 +1,5 @@
 import React from 'react';
+import { withPrefix } from 'gatsby-link';
 
 import './_header.scss';
 
@@ -9,7 +10,7 @@ class Header extends React.Component {
         <div className="wrapper">
           <nav className="navbar navbar-expand-lg navbar-light">
             <a className="navbar-brand" href="/">
-              <img src="/images/logo.svg" /> 
+              <img src={withPrefix('/images/logo.png')} /> 
               <p>FirstStep</p>
             </a>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">

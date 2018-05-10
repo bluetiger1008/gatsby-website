@@ -42,7 +42,7 @@ img.iphone-img {
     background: linear-gradient(150deg, #FF6FB6 -80%, #FF2E95 50%);
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 767.98px) { 
     html, body {
         font-size: 8px;
     }
@@ -51,5 +51,21 @@ img.iphone-img {
         .inner-wrapper {
             padding: 0;
         }
+    }
+}
+
+@media (max-width: 1199.98px) {
+    html, body {
+        font-size: 9px;
+    }
+
+    .wrapper {
+        .inner-wrapper {
+            padding: 0 2rem;
+        }
+    }
+
+    img.iphone-img {
+        width: 300px;
     }
 }
