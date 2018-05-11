@@ -47,7 +47,7 @@ class IndexPage extends React.Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6" data-aos="fade-left" data-aos-once>
+                <div className="col-md-6" data-aos="fade-up" data-aos-once>
                   <div className="banner-right">
                     <img src={withPrefix('/images/iphone_x.png')} className="iphone-investment iphone-img"/>
                     <img src={withPrefix('/images/iphone_account.png')} className="iphone-account iphone-img"/>
